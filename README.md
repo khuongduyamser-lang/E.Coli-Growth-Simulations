@@ -16,7 +16,7 @@ where:
 - q(x) is the nutrion uptake 
 - (1 - Bmin/B(t))^0.72 serves as the initial lag term
 
-** UI controls
+## UI controls
 - **Inoculum Size Control:** Set custom starting cell concentrations (scaled to 10^8 CFU/ml).
 - **Dilution Factor Control:** Adjust the nutritional richness of the Lysogeny Broth (LB) medium (limit from 0 to 1)
 - **Simulation Timeline:** minutes
@@ -25,11 +25,11 @@ where:
   - **Compare Button:** Overlays baseline plots from the independent Krce and Fujikawa models.
   - **Clear Button:** Resets visual axes for fresh data evaluations.
  
-## 🛠️ Requirements & Installation
+## Requirements & Installation
 1. Clone this repository to your local machine.
 2. Ensure you have **MATLAB** installed along with the **Simulink/Ordinary Differential Equation Solvers toolbox**.
 3. Open MATLAB, navigate to the AppDesigner, and run `EColi_Simulator.mlapp`.
 
-## 📜 References
+## References
 - Fujikawa, H., Kai, A., & Morozumi, S. (2004). A new logistic model for Escherichia coli growth at constant and dynamic temperatures. *Food Microbiology*, 21(5), 501–509.
 - Krce, L., Šprung, M., Maravić, A., & Aviani, I. (2019). A simple interaction-based E. coli growth model. *Physical Biology*, 16(6), Article 066005.
