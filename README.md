@@ -1,8 +1,8 @@
 # E.Coli-Growth-Simulations
-This model is created to try simulating the growth of E.Coli model under different initial parameters (Inoculum size, Dilution factor) and constant temperature and LB medium. This model also integrate the lag term of Fujikawa et al. (2004) and the death kinetics of Krce et al. (2019). The UI can also be found and used in MATLAB.
+This model is created to try simulating the growth of E.Coli model under different initial parameters (Inoculum size, Dilution factor) and constant temperature and LB medium. This model also integrates the lag term of Fujikawa et al. (2004) and the death kinetics of Krce et al. (2019). The UI can also be found and used in MATLAB.
 
 ## Overview
-Standard microbial model frequently fail to capture the initial lag phase and the final death phase observed in batch cultures. This project try to tackle this bby synthesizing the idea of two peer-reviewed frameworks: 
+Standard microbial model frequently fail to capture the initial lag phase and the final death phase observed in batch cultures. This project tries to tackle this by synthesizing the idea of two peer-reviewed frameworks: 
 1. **Krce et al. (2019)**: Provides an innovative quadratic bacterium-bacterium interaction term to accurately model nutrient depletion and the death phase.
 2. **Fujikawa et al. (2004):** Provides an empirical term to simulate intial lag constraints when cells adapt to environmental parameters.
 
