@@ -8,9 +8,11 @@ Standard microbial model frequently fail to capture the initial lag phase and th
 
 ## Mathematical model
 The simulator evaluates the normalized bacterial concentration b(t) = B(t)/N0 and nutrient concentration n(t) = N(t)/N0 using the following diffrential equation: 
-$$\frac{dq}{dt} = \frac{x}{x + 0.093}$$
+
+$$q(x) = \frac{x}{x + 0.093}$$
 $$\frac{db}{dt} = q(x) \cdot \left(1.94 \times 10^{-2} \cdot b \cdot n - 1.96 \times 10^{-4} \cdot b^2\right) \cdot \left(1 - \frac{B_{min}}{B(t)}\right)^{0.72}$$
 $$\frac{dn}{dt} = -q(x) \cdot 1.94 \times 10^{-2} \cdot b \cdot n \cdot \left(1 - \frac{B_{min}}{B(t)}\right)^{0.72}$$
+
 where: 
 - x represents the initial dilution factor of the growth medium (compared to 100% LB medium)
 - q(x) is the nutrion uptake 
