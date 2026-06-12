@@ -16,7 +16,7 @@ $$\frac{dn}{dt} = -q(x) \cdot 1.94 \times 10^{-2} \cdot b \cdot n \cdot \left(1 
 where: 
 - x represents the initial dilution factor of the growth medium (compared to 100% LB medium)
 - q(x) is the nutrion uptake 
-- (1 - Bmin/B(t))^0.72 serves as the initial lag term
+- $$\left(1 - \frac{B_{min}}{B(t)}\right)^{0.72}$$ serves as the initial lag term
 
 ## UI controls
 - **Inoculum Size Control:** Set custom starting cell concentrations (scaled to 10^8 CFU/ml).
